@@ -1,0 +1,571 @@
+{
+    "info": {
+        "_postman_id": "27b7dbea-ab02-4fa7-9ff8-888a472ca3da",
+        "name": "Items API V1",
+        "description": "Items API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "items",
+            "item": [
+                {
+                    "name": "{id}",
+                    "item": [
+                        {
+                            "name": "/items/:id",
+                            "id": "a346e03b-8747-4359-8427-8febbbe6e2b3",
+                            "request": {
+                                "method": "GET",
+                                "header": [
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "entityId",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientURN",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "applianceToken",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "systemCode",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "countryCode",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientCode",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientGroupCode",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "channelCode",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientUserId",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientPassword",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "key": "Accept",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "url": {
+                                    "raw": "{{baseUrl}}/items/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "items",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "d766a2f3-2775-42f0-8874-c98d51e952aa",
+                                            "key": "id",
+                                            "value": "consectetur in magna dolor",
+                                            "description": "(Required) Id of an item to get details"
+                                        }
+                                    ]
+                                },
+                                "description": "get Item details by Id"
+                            },
+                            "response": [
+                                {
+                                    "id": "96ab45bf-5d59-478a-80d2-be16ffebaae7",
+                                    "name": "Success",
+                                    "originalRequest": {
+                                        "method": "GET",
+                                        "header": [
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "entityId",
+                                                "value": "consectetur in magna dolor"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientURN",
+                                                "value": "consectetur in magna dolor"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "applianceToken",
+                                                "value": "consectetur in magna dolor"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "systemCode",
+                                                "value": "consectetur in magna dolor"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "countryCode",
+                                                "value": "consectetur in magna dolor"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientCode",
+                                                "value": "consectetur in magna dolor"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientGroupCode",
+                                                "value": "consectetur in magna dolor"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "channelCode",
+                                                "value": "consectetur in magna dolor"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientUserId",
+                                                "value": "consectetur in magna dolor"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientPassword",
+                                                "value": "consectetur in magna dolor"
+                                            }
+                                        ],
+                                        "url": {
+                                            "raw": "{{baseUrl}}/items/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "items",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id",
+                                                    "value": "consectetur in magna dolor",
+                                                    "description": "(Required) Id of an item to get details"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "json",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "application/json"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": "{\n  \"Source\": {\n    \"ChannelCode\": \"reprehenderit Duis\",\n    \"ChannelGroupCode\": \"enim sint\",\n    \"SystemCode\": \"elit fugiat laborum laboris\",\n    \"CountryCode\": \"reprehenderit voluptate\",\n    \"ClientCode\": \"aliqu\",\n    \"ClientCodeDescription\": \"laborum in ullamco magna minim\",\n    \"ClientGroupCode\": \"nulla qui\",\n    \"ClientGroupDescription\": \"commodo Lorem qui aliqua\"\n  },\n  \"ItemDetailsList\": {\n    \"ItemDetails\": {\n      \"ItemCode\": \"aliqua occaecat magna in dolore\",\n      \"ItemCodeDescription\": \"dolore culpa aute laborum\",\n      \"ManufacturerBrandCode\": \"id ipsum officia\",\n      \"ManufacturerBrandDescription\": \"consectetur dolor pariatur culpa\",\n      \"GoodsColour\": \"Duis\",\n      \"ModelNumber\": \"dolore ex\",\n      \"SerialNumber\": \"mollit dolore cillum voluptate\",\n      \"OperationalStatusCode\": \"commodo pariatur\",\n      \"DGAllocatedSupplierAgentCode\": \"sint amet irure\",\n      \"DGAllocatedSupplierBranchCode\": \"ut officia proident\",\n      \"LastServiceDate\": \"in deserunt\",\n      \"LastServiceTime\": \"elit voluptate ipsum\",\n      \"ItemCatCode\": \"Lorem in commodo \",\n      \"ManufacturerBrandGroupCode\": \"in Duis sed aute ut\",\n      \"ItemID\": {\n        \"EID\": \"veniam nostrud\"\n      },\n      \"ItemURNList\": {\n        \"ItemURN\": {\n          \"ClientURN\": \"ullamco voluptate irure aliquip\",\n          \"ApplianceToken\": \"cupidatat Duis\"\n        }\n      },\n      \"Item\": {\n        \"ItemLink\": {\n          \"MemIdNum\": \"Excepteur mollit in\",\n          \"SrcCode\": \"magna occaecat \"\n        },\n        \"ItemDetails\": {\n          \"value\": \"<Circular reference to #/components/schemas/ItemDetails detected>\"\n        },\n        \"AdditionalDetails\": {\n          \"BoilerType\": \"nostrud in\",\n          \"ExtCovPrdFee\": \"Ut Lorem\",\n          \"PdNettFlg\": \"id sit quis tempor\",\n          \"CallSource\": \"adipisicing \",\n          \"PeriodOfCover\": \"quis adipisicing veniam sint\",\n          \"GoodsColour\": \"ut aliqua\",\n          \"CoverType\": \"pariatur dolor ad et\",\n          \"BreakdownStartDate\": \"deserunt ipsum reprehenderit laboris\"\n        },\n        \"OtherIds\": {\n          \"OtherId1\": \"in et commodo pariatur consectetur\",\n          \"OtherId1CategoryCode\": \"ea labore tempor in\",\n          \"OtherId2\": \"Ut magna officia aliqua\",\n          \"OtherId2CategoryCode\": \"velit nisi dolore cupidatat ut\",\n          \"OtherId3\": \"enim qui magna\",\n          \"OtherId3CategoryCode\": \"in\",\n          \"OtherModelId1\": \"non Lorem magna ad\",\n          \"OtherModelId1CategoryCode\": \"laboris mollit\",\n          \"OtherModelId2\": \"ex\",\n          \"OtherModelId2CategoryCode\": \"in minim\"\n        },\n        \"Cover\": {\n          \"ManufacturerGuaranteeLabourMonths\": \"do ea enim\",\n          \"ManufacturerGuaranteePartsMonths\": \"et mollit in irure\",\n          \"ThirdPartyGuaranteeLabourMonths\": \"minim Lorem\",\n          \"ThirdPartyGuaranteePartsMonths\": \"minim commodo non deserunt\"\n        },\n        \"Purchase\": {\n          \"PurchasePrice\": \"veniam amet qui\",\n          \"PriceCurrencyCode\": \"tempor aliqua eiusmod dolore\",\n          \"PurchaseDate\": \"Duis consectetur dolore cillum\",\n          \"PurchaseTime\": \"do magna commodo in voluptate\",\n          \"RecommendedPrice\": \"aliquip voluptate cupidatat Excepteur\",\n          \"RecommendedPriceCurrencyCode\": \"est ullamco\",\n          \"PurchaseRetailer\": \"quis id in\"\n        },\n        \"Address\": {\n          \"AddressCategory\": \"Excepteur in ad sint\",\n          \"AddressOverride\": \"enim dolor esse\",\n          \"AddressStatus\": \"amet mollit cupidatat\",\n          \"AddressDetails\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        },\n        \"PersonOwnerList\": {\n          \"PersonOwner\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        },\n        \"PersonUserList\": {\n          \"PersonUser\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        },\n        \"ClientCode\": \"in labore\",\n        \"ItemCtgCode\": \"fugiat\"\n      }\n    }\n  },\n  \"ErrorResponseList\": {\n    \"Error\": {\n      \"ErrorCode\": \"velit\",\n      \"ErrorDescription\": \"eiusmod nulla\"\n    }\n  }\n}"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "/items/:id",
+                            "id": "c212289b-3e1d-48e8-9ba1-09ba10de3ead",
+                            "protocolProfileBehavior": {
+                                "disableBodyPruning": true
+                            },
+                            "request": {
+                                "method": "PUT",
+                                "header": [
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "entityId",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientURN",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "applianceToken",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "systemCode",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "countryCode",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientCode",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientGroupCode",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "channelCode",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientUserId",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientPassword",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "raw",
+                                    "raw": "{\n  \"ItemID\": {\n    \"EID\": \"pariatur Ut proident adipisicing\"\n  },\n  \"ItemURN\": {\n    \"ClientURN\": \"elit\",\n    \"ApplianceToken\": \"officia sint mollit dolor\"\n  },\n  \"BabyPlanList\": {\n    \"BabyPlan\": {\n      \"CompanyCode\": \"in cill\",\n      \"SchemeCode\": \"pariatur tempor deserunt n\",\n      \"Reference\": \"Ut consequat culpa\",\n      \"ItemCode\": \"ut sed culpa consectetur\",\n      \"ModelNumber1\": \"velit labore reprehenderit\",\n      \"ModelNumber2\": \"irure sunt Lorem tempor\",\n      \"ErrorMessage\": \"elit occa\"\n    }\n  },\n  \"ErrorResponseList\": {\n    \"Error\": {\n      \"ErrorCode\": \"adipisicing non\",\n      \"ErrorDescription\": \"magna aute\"\n    }\n  }\n}",
+                                    "options": {
+                                        "raw": {
+                                            "language": "json"
+                                        }
+                                    }
+                                },
+                                "url": {
+                                    "raw": "{{baseUrl}}/items/:id",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "items",
+                                        ":id"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "id": "71a16e9c-4a35-41f4-a21a-b2b473053ec1",
+                                            "key": "id",
+                                            "value": "consectetur in magna dolor",
+                                            "description": "(Required) Id of an item to get details"
+                                        }
+                                    ]
+                                },
+                                "description": "updates an item by Id"
+                            },
+                            "response": [
+                                {
+                                    "id": "cd030d2d-a50d-441b-b232-4ef23316f45c",
+                                    "name": "Success",
+                                    "originalRequest": {
+                                        "method": "PUT",
+                                        "header": [
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "entityId",
+                                                "value": "consectetur in magna dolor"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientURN",
+                                                "value": "consectetur in magna dolor"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "applianceToken",
+                                                "value": "consectetur in magna dolor"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "systemCode",
+                                                "value": "consectetur in magna dolor"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "countryCode",
+                                                "value": "consectetur in magna dolor"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientCode",
+                                                "value": "consectetur in magna dolor"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientGroupCode",
+                                                "value": "consectetur in magna dolor"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "channelCode",
+                                                "value": "consectetur in magna dolor"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientUserId",
+                                                "value": "consectetur in magna dolor"
+                                            },
+                                            {
+                                                "description": "(Required) description of parameter passed",
+                                                "key": "clientPassword",
+                                                "value": "consectetur in magna dolor"
+                                            }
+                                        ],
+                                        "body": {
+                                            "mode": "raw",
+                                            "raw": "{\n  \"ItemID\": {\n    \"EID\": \"pariatur Ut proident adipisicing\"\n  },\n  \"ItemURN\": {\n    \"ClientURN\": \"elit\",\n    \"ApplianceToken\": \"officia sint mollit dolor\"\n  },\n  \"BabyPlanList\": {\n    \"BabyPlan\": {\n      \"CompanyCode\": \"in cill\",\n      \"SchemeCode\": \"pariatur tempor deserunt n\",\n      \"Reference\": \"Ut consequat culpa\",\n      \"ItemCode\": \"ut sed culpa consectetur\",\n      \"ModelNumber1\": \"velit labore reprehenderit\",\n      \"ModelNumber2\": \"irure sunt Lorem tempor\",\n      \"ErrorMessage\": \"elit occa\"\n    }\n  },\n  \"ErrorResponseList\": {\n    \"Error\": {\n      \"ErrorCode\": \"adipisicing non\",\n      \"ErrorDescription\": \"magna aute\"\n    }\n  }\n}",
+                                            "options": {
+                                                "raw": {
+                                                    "language": "json"
+                                                }
+                                            }
+                                        },
+                                        "url": {
+                                            "raw": "{{baseUrl}}/items/:id",
+                                            "host": [
+                                                "{{baseUrl}}"
+                                            ],
+                                            "path": [
+                                                "items",
+                                                ":id"
+                                            ],
+                                            "variable": [
+                                                {
+                                                    "key": "id",
+                                                    "value": "consectetur in magna dolor",
+                                                    "description": "(Required) Id of an item to get details"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "status": "OK",
+                                    "code": 200,
+                                    "_postman_previewlanguage": "text",
+                                    "header": [
+                                        {
+                                            "key": "Content-Type",
+                                            "value": "text/plain"
+                                        }
+                                    ],
+                                    "cookie": [],
+                                    "responseTime": null,
+                                    "body": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "374d5805-59fe-4499-bc5d-2a5d64e33e6c"
+                },
+                {
+                    "name": "/items",
+                    "id": "1784115b-94c3-41a5-bec9-f9ab358d9f7a",
+                    "protocolProfileBehavior": {
+                        "disableBodyPruning": true
+                    },
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "entityId",
+                                "value": "consectetur in magna dolor"
+                            },
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "clientURN",
+                                "value": "consectetur in magna dolor"
+                            },
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "applianceToken",
+                                "value": "consectetur in magna dolor"
+                            },
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "systemCode",
+                                "value": "consectetur in magna dolor"
+                            },
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "countryCode",
+                                "value": "consectetur in magna dolor"
+                            },
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "clientCode",
+                                "value": "consectetur in magna dolor"
+                            },
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "clientGroupCode",
+                                "value": "consectetur in magna dolor"
+                            },
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "channelCode",
+                                "value": "consectetur in magna dolor"
+                            },
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "clientUserId",
+                                "value": "consectetur in magna dolor"
+                            },
+                            {
+                                "description": "(Required) description of parameter passed",
+                                "key": "clientPassword",
+                                "value": "consectetur in magna dolor"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"ItemID\": {\n    \"EID\": \"Ut nostrud dolor\"\n  },\n  \"ItemURN\": {\n    \"ClientURN\": \"officia\",\n    \"ApplianceToken\": \"culpa nisi\"\n  },\n  \"Mailer\": {\n    \"CompanyCode\": \"ex laboris eiusmod anim\",\n    \"SchemeCode\": \"aute conse\",\n    \"Reference\": \"commodo adipisicing ea dolor\"\n  },\n  \"RTPOfferReferenceList\": {\n    \"RTPOfferReference\": {\n      \"OfferReference\": \"sunt\",\n      \"OfferKey\": \"\",\n      \"CallSource\": \"ex\"\n    }\n  },\n  \"RTPRateList\": {\n    \"RTPRate\": {\n      \"CallSourceDetails\": {\n        \"CallSource\": \"officia amet aliqua ut\",\n        \"CallSourceDescription\": \"aute est nisi\",\n        \"Scheme\": {\n          \"CompanyCode\": \"culpa tempor\",\n          \"SchemeCode\": \"incididunt aliqua occaecat labore irure\",\n          \"TelRegMakerCode\": \"laboris cupidatat in\"\n        },\n        \"Agent\": {\n          \"AgentNumber\": \"Duis commodo laborum\",\n          \"SchemeCodeBranchNumber\": \"nostrud laborum officia\"\n        },\n        \"ItemCode\": \"irure voluptate Lorem sunt\",\n        \"ItemCodeDescription\": \"in t\",\n        \"PriceBand\": \"ullamco fugiat\",\n        \"NumberOfItems\": \"sit\",\n        \"CoverType\": \"nisi esse et labore enim\",\n        \"BreakdownStartDate\": \"cupidatat ut\",\n        \"ContractType\": {\n          \"ProductCategory\": \"enim in laboris tempor et\",\n          \"ProductCategoryDesc\": \"eiusmod mollit\",\n          \"ProductType\": \"dolor cupidatat quis sit\",\n          \"ProductTypeDesc\": \"dolore\",\n          \"ProductVariance\": \"officia dolor esse\",\n          \"ProductVarianceDesc\": \"nostrud velit\",\n          \"PaymentTerm\": \"ullamco cul\",\n          \"PaymentTermDesc\": \"enim culpa adipisicing nostrud\",\n          \"ContractTypeCode\": \"eu aute ullamco\",\n          \"ContractTypeDesc\": \"al\",\n          \"ProductDescription\": \"aliqua laborum\"\n        }\n      },\n      \"RTPOfferDetails\": {\n        \"OfferReference\": \"cillum aliquip irure consectetur\",\n        \"OfferKey\": \"in do occaecat\",\n        \"OfferPricingKey\": \"consequat deserunt\",\n        \"PeriodOfCover\": \"sit dolor incididunt\",\n        \"Fee\": \"ipsum ex\",\n        \"WaitDays\": \"labore ea in\",\n        \"WicType\": \"consequat laborum id ut\",\n        \"MultiplanType\": \"voluptate ex commodo eu nulla\",\n        \"MultiplanWarrantyType\": \"dolor proi\",\n        \"RTPPaymentDetails\": {\n          \"PreferredPayment\": \"minim\",\n          \"PaymentType\": \"Ut veniam incididunt\",\n          \"PaymentProfile\": \"est fugiat ut\",\n          \"CashPaymentType\": \"aute consequat\",\n          \"NumberOfPayments\": \"officia velit non\",\n          \"PaymentFrequency\": \"ut enim commodo\",\n          \"FirstPayment\": \"dolore veniam\",\n          \"SubsequentPayment\": \"officia cillum\",\n          \"ExcessAmount\": \"v\",\n          \"RTPRates\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        }\n      }\n    }\n  },\n  \"AlternativeApplianceList\": {\n    \"AlternativeAppliance\": {\n      \"CompanyCode\": \"reprehenderit ad do\",\n      \"SchemeCode\": \"consectetur sunt culpa\",\n      \"ItemGroupCode\": \"quis\",\n      \"ItemCode\": \"consectetur ex tempor\",\n      \"ItemDescription\": \"adipisicing ut occaecat\"\n    }\n  },\n  \"ErrorResponseList\": {\n    \"Error\": {\n      \"ErrorCode\": \"deserunt\",\n      \"ErrorDescription\": \"consectetur commodo\"\n    }\n  }\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/items",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "items"
+                            ]
+                        },
+                        "description": "creates Item"
+                    },
+                    "response": [
+                        {
+                            "id": "7988def2-3b16-4796-8c6f-d0f70acb6653",
+                            "name": "Success",
+                            "originalRequest": {
+                                "method": "POST",
+                                "header": [
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "entityId",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientURN",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "applianceToken",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "systemCode",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "countryCode",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientCode",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientGroupCode",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "channelCode",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientUserId",
+                                        "value": "consectetur in magna dolor"
+                                    },
+                                    {
+                                        "description": "(Required) description of parameter passed",
+                                        "key": "clientPassword",
+                                        "value": "consectetur in magna dolor"
+                                    }
+                                ],
+                                "body": {
+                                    "mode": "raw",
+                                    "raw": "{\n  \"ItemID\": {\n    \"EID\": \"Ut nostrud dolor\"\n  },\n  \"ItemURN\": {\n    \"ClientURN\": \"officia\",\n    \"ApplianceToken\": \"culpa nisi\"\n  },\n  \"Mailer\": {\n    \"CompanyCode\": \"ex laboris eiusmod anim\",\n    \"SchemeCode\": \"aute conse\",\n    \"Reference\": \"commodo adipisicing ea dolor\"\n  },\n  \"RTPOfferReferenceList\": {\n    \"RTPOfferReference\": {\n      \"OfferReference\": \"sunt\",\n      \"OfferKey\": \"\",\n      \"CallSource\": \"ex\"\n    }\n  },\n  \"RTPRateList\": {\n    \"RTPRate\": {\n      \"CallSourceDetails\": {\n        \"CallSource\": \"officia amet aliqua ut\",\n        \"CallSourceDescription\": \"aute est nisi\",\n        \"Scheme\": {\n          \"CompanyCode\": \"culpa tempor\",\n          \"SchemeCode\": \"incididunt aliqua occaecat labore irure\",\n          \"TelRegMakerCode\": \"laboris cupidatat in\"\n        },\n        \"Agent\": {\n          \"AgentNumber\": \"Duis commodo laborum\",\n          \"SchemeCodeBranchNumber\": \"nostrud laborum officia\"\n        },\n        \"ItemCode\": \"irure voluptate Lorem sunt\",\n        \"ItemCodeDescription\": \"in t\",\n        \"PriceBand\": \"ullamco fugiat\",\n        \"NumberOfItems\": \"sit\",\n        \"CoverType\": \"nisi esse et labore enim\",\n        \"BreakdownStartDate\": \"cupidatat ut\",\n        \"ContractType\": {\n          \"ProductCategory\": \"enim in laboris tempor et\",\n          \"ProductCategoryDesc\": \"eiusmod mollit\",\n          \"ProductType\": \"dolor cupidatat quis sit\",\n          \"ProductTypeDesc\": \"dolore\",\n          \"ProductVariance\": \"officia dolor esse\",\n          \"ProductVarianceDesc\": \"nostrud velit\",\n          \"PaymentTerm\": \"ullamco cul\",\n          \"PaymentTermDesc\": \"enim culpa adipisicing nostrud\",\n          \"ContractTypeCode\": \"eu aute ullamco\",\n          \"ContractTypeDesc\": \"al\",\n          \"ProductDescription\": \"aliqua laborum\"\n        }\n      },\n      \"RTPOfferDetails\": {\n        \"OfferReference\": \"cillum aliquip irure consectetur\",\n        \"OfferKey\": \"in do occaecat\",\n        \"OfferPricingKey\": \"consequat deserunt\",\n        \"PeriodOfCover\": \"sit dolor incididunt\",\n        \"Fee\": \"ipsum ex\",\n        \"WaitDays\": \"labore ea in\",\n        \"WicType\": \"consequat laborum id ut\",\n        \"MultiplanType\": \"voluptate ex commodo eu nulla\",\n        \"MultiplanWarrantyType\": \"dolor proi\",\n        \"RTPPaymentDetails\": {\n          \"PreferredPayment\": \"minim\",\n          \"PaymentType\": \"Ut veniam incididunt\",\n          \"PaymentProfile\": \"est fugiat ut\",\n          \"CashPaymentType\": \"aute consequat\",\n          \"NumberOfPayments\": \"officia velit non\",\n          \"PaymentFrequency\": \"ut enim commodo\",\n          \"FirstPayment\": \"dolore veniam\",\n          \"SubsequentPayment\": \"officia cillum\",\n          \"ExcessAmount\": \"v\",\n          \"RTPRates\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n        }\n      }\n    }\n  },\n  \"AlternativeApplianceList\": {\n    \"AlternativeAppliance\": {\n      \"CompanyCode\": \"reprehenderit ad do\",\n      \"SchemeCode\": \"consectetur sunt culpa\",\n      \"ItemGroupCode\": \"quis\",\n      \"ItemCode\": \"consectetur ex tempor\",\n      \"ItemDescription\": \"adipisicing ut occaecat\"\n    }\n  },\n  \"ErrorResponseList\": {\n    \"Error\": {\n      \"ErrorCode\": \"deserunt\",\n      \"ErrorDescription\": \"consectetur commodo\"\n    }\n  }\n}",
+                                    "options": {
+                                        "raw": {
+                                            "language": "json"
+                                        }
+                                    }
+                                },
+                                "url": {
+                                    "raw": "{{baseUrl}}/items",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "items"
+                                    ]
+                                }
+                            },
+                            "status": "OK",
+                            "code": 200,
+                            "_postman_previewlanguage": "text",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "text/plain"
+                                }
+                            ],
+                            "cookie": [],
+                            "responseTime": null,
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "id": "bbd7c113-243c-4939-bae9-22d01305ee5c"
+        }
+    ],
+    "variable": [
+        {
+            "id": "30cce2a4-da2d-417b-9d0c-f2281a9d498e",
+            "key": "baseUrl",
+            "value": "<to be set>",
+            "type": "string"
+        }
+    ]
+}
